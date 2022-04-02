@@ -1,0 +1,503 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+}
+.header {
+  width: 100%;
+  height: 10px;
+  position: sticky;
+  top: 70px;
+  overflow: hidden;
+}
+.logo {
+  position: absolute;
+  top: -50px;
+  left: 13px;
+  padding-left: 30px;
+}
+.logo img {
+  width: 130px;
+}
+.nav {
+  position: relative;
+  top: 0px;
+  left: 300px;
+  width: 700px;
+}
+.nav ul {
+  list-style-type: none;
+}
+.nav ul li {
+  display: inline-block;
+  padding: 15px;
+  font-size: 16px;
+}
+.nav ul li a:hover {
+  color: red;
+  cursor: pointer;
+}
+.languages a {
+  position: relative;
+  top: -50px;
+  right: -905px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.languages a:hover {
+  color: red;
+}
+.sub-header-image {
+  position: absolute;
+  top: 70px;
+}
+.sub-header-image img {
+  width: 100%;
+  height: auto;
+}
+.form {
+  width: 800px;
+  height: 200px;
+  position: absolute;
+  top: 70px;
+  left: 110px;
+  color: white;
+  background-color: rgba(2, 2, 2, 0.7);
+}
+.form .form-item-1 {
+  height: 50px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+.form .form-item-2 {
+  height: 50px;
+  position: relative;
+  top: -30px;
+  left: 200px;
+}
+.form .form-item-3 {
+  height: 50px;
+  position: relative;
+  top: -79px;
+  left: 390px;
+}
+.form .form-item-4 {
+  height: 50px;
+  position: relative;
+  top: -130px;
+  left: 580px;
+}
+.form .form-item-5 {
+  height: 50px;
+  position: relative;
+  top: -90px;
+  left: 10px;
+}
+.form .form-item-6 {
+  height: 50px;
+  position: relative;
+  top: -140px;
+  left: 220px;
+}
+.availability-button {
+  position: absolute;
+  top: 220px;
+  left: 320px;
+  width: 220px;
+  padding: 10px;
+  background-color: #ed5434;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+}
+.availability-button:hover {
+  color: #ed5434;
+  background-color: white;
+}
+.welcome {
+  position: absolute;
+  top: 550px;
+  left: 120px;
+  text-align: center;
+}
+.welcome-heading {
+  font-size: 42px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ed5434;
+}
+.welcome-heading-two {
+  color: #999999;
+  font-size: 24px;
+  position: absolute;
+  top: 65px;
+  left: 250px;
+  font-family: "Lato", sans-serif;
+}
+.welcome-heading-three {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  width: 800px;
+}
+#mosaic-1 {
+  position: absolute;
+  top: 230px;
+  left: -60px;
+  width: 450px;
+}
+#mosaic-2 {
+  width: 430px;
+  position: absolute;
+  top: 230px;
+  right: -50px;
+}
+#mosaic-3 {
+  width: 200px;
+  position: absolute;
+  top: 390px;
+  right: 180px;
+}
+#mosaic-4 {
+  width: 200px;
+  position: absolute;
+  top: 390px;
+  right: -50px;
+}
+.mosaic-1-heading {
+  font-size: 21px;
+  color: white;
+  position: absolute;
+  top: 470px;
+  left: -40px;
+}
+.mosaic-2-heading {
+  position: absolute;
+  top: 320px;
+  right: 220px;
+  color: white;
+  font-size: 21px;
+}
+.mosaic-3-heading {
+  position: absolute;
+  top: 470px;
+  right: 200px;
+  color: white;
+  font-size: 21px;
+}
+.mosaic-4-heading {
+  position: absolute;
+  top: 470px;
+  right: 50px;
+  color: white;
+  font-size: 21px;
+}
+.single-room {
+  position: absolute;
+  top: 1200px;
+  left: 160px;
+}
+.single-room img {
+  width: 350px;
+}
+.first-price {
+  width: 100px;
+  height: 130px;
+  background-color: #ec5333;
+  position: absolute;
+  top: 1250px;
+  left: 470px;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.first-price #first-price-1 {
+  font-size: 30px;
+  padding-left: 15px;
+}
+.first-price #first-price-2 {
+  font-size: 14px;
+  padding-left: 17px;
+  padding-top: 2px;
+}
+.paragraph-1 {
+  width: 300px;
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  top: 1200px;
+  right: 80px;
+}
+.icons {
+  position: absolute;
+  top: 1400px;
+  right: 300px;
+}
+.button-2 {
+  position: absolute;
+  top: 1440px;
+  right: 280px;
+  background-color: white;
+  padding: 10px;
+  width: 100px;
+  color: #ec5333;
+  border: 2px solid #ec5333;
+  border-radius: 2px;
+}
+.double-room {
+  position: absolute;
+  top: 1500px;
+  left: 160px;
+  width: 300px;
+  font-family: "Lato", sans-serif;
+}
+.icons-2 {
+  position: absolute;
+  top: 1700px;
+  left: 160px;
+}
+.button-3 {
+  position: absolute;
+  top: 1740px;
+  left: 160px;
+  background-color: white;
+  padding: 10px;
+  width: 100px;
+  color: #ec5333;
+  border: 2px solid #ec5333;
+  border-radius: 2px;
+}
+.button-2:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+.button-3:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+.double-room-1 {
+  position: absolute;
+  top: 1520px;
+  right: 80px;
+}
+.double-room-1 img {
+  width: 350px;
+}
+.second-price {
+  width: 100px;
+  height: 130px;
+  background-color: #ec5333;
+  position: absolute;
+  top: 1550px;
+  right: 380px;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.second-price #second-price-1 {
+  font-size: 30px;
+  padding-left: 15px;
+}
+.second-price #second-price-2 {
+  font-size: 14px;
+  padding-left: 17px;
+  padding-top: 2px;
+}
+.suit-room {
+  position: absolute;
+  top: 1830px;
+  left: 160px;
+}
+.suit-room img {
+  width: 350px;
+}
+.third-price {
+  width: 100px;
+  height: 130px;
+  background-color: #ec5333;
+  position: absolute;
+  top: 1870px;
+  left: 460px;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.third-price .third-price-1 {
+  font-size: 30px;
+  padding-left: 15px;
+}
+.third-price #third-price-2 {
+  font-size: 14px;
+  padding-left: 17px;
+  padding-top: 2px;
+}
+.suit-room-content {
+  position: absolute;
+  top: 1850px;
+  right: 80px;
+  width: 350px;
+  font-family: "Lato", sans-serif;
+}
+.icons-3 {
+  position: absolute;
+  top: 2050px;
+  right: 300px;
+}
+.button-4 {
+  position: absolute;
+  top: 2100px;
+  right: 340px;
+  background-color: white;
+  padding: 10px;
+  width: 100px;
+  color: #ec5333;
+  border: 2px solid #ec5333;
+  border-radius: 2px;
+}
+.button-4:hover {
+  background-color: black;
+  border: none;
+  color: white;
+}
+.footer-image {
+  position: absolute;
+  top: 2200px;
+}
+.footer-image img {
+  width: 100%;
+}
+.client {
+  position: absolute;
+  top: 300px;
+  left: auto;
+}
+#client-say {
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  top: -200px;
+  left: 350px;
+  width: 350px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#client-para {
+  width: 700px;
+  color: white;
+  position: absolute;
+  top: -150px;
+  left: 210px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about {
+  position: absolute;
+  background-color: rgba(2, 2, 2, 0.6);
+  top: 250px;
+  left: 470px;
+  width: 300px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 200px;
+}
+.intro {
+  position: absolute;
+  top: 250px;
+  left: 270px;
+  width: 200px;
+  background-color: rgba(2, 2, 2, 0.6);
+  color: white;
+  height: 200px;
+}
+#girl-img {
+  border-radius: 50%;
+  width: 70px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#intro-name {
+  position: relative;
+  top: -70px;
+  left: 100px;
+  font-size: 14px;
+}
+.footer {
+  background-color: #2f2f2f;
+  position: absolute;
+  top: 2788px;
+  width: 100%;
+}
+.footer-1 {
+  height: 200px;
+  color: white;
+  background-color: #2f2f2f;
+  width: 100%;
+}
+.logo-footer img {
+  width: 130px;
+  position: absolute;
+  top: 10px;
+  margin-left: 30px;
+}
+#address {
+  margin-top: 70px;
+  width: 200px;
+  margin-left: 30px;
+}
+#no {
+  margin-left: 30px;
+}
+.mail {
+  width: 200px;
+  position: relative;
+  top: -150px;
+  right: -780px;
+}
+#letter {
+  color: #cb3f2f;
+}
+#message {
+}
+#mail-area {
+  height: 30px;
+  font-size: 16px;
+}
+.languages-area {
+  position: relative;
+  top: -365px;
+  left: 550px;
+}
+#lang-1 {
+  font-size: 18px;
+  color: #cb3f2f;
+}
+#lang-1 #lang-2 #lang-3 #lang-4 {
+  padding: 2px;
+}
+#button-last {
+  width: 120px;
+  color: white;
+  background-color: #cb3f2f;
+  border-radius: 2px;
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+}
+.about-last {
+  position: relative;
+  top: -525px;
+  left: 330px;
+  padding: -5px;
+}
+#one {
+  font-size: 18px;
+  color: #cb3f2f;
+}
