@@ -697,6 +697,9 @@ Media Querries started from here*/
     flex-direction: column;
     position: relative;
   }
+  .paragraph-1 {
+    margin-top: 20px;
+}
   .paragraph-1 p {
     font-weight: 200;
     color: #999;
